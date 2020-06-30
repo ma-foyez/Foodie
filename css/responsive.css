@@ -1,23 +1,7 @@
-
- /* @media (min-width: 992px) and (max-width: 1190px) {
-    
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  
- @media (max-width: 767px) {
- } */
- @media only screen and (max-width: 768px) {
-    .header-banner-left h1{
-       font-size: 25px;
-    }
-    .header-banner-right img{
-        border: 20px solid #fff;
-        border-radius: 50%;
-        margin-top: 20%;
-    }
+@media only screen and (max-width: 1024px) {
     .inner-img{
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
         position: relative;
         display: grid;
         justify-items: center;
@@ -25,42 +9,213 @@
         z-index: 1;
     }
     .dics img{
-        width: 100%;
-        height: 100%;
         position: absolute;
-        left: 12%;
+        left: 15%;
         top: 50%;
-        background-color: transparent;
     }
-    .inner-img img{
-        width: 70%;
-        padding: 5px;
-        box-shadow: 0 0 0  3px #d90064;
-        border-radius: 50%;
+    .recipe-banner .images{
+        width: 100%;
+        height: 220px;
+    }
+    .recipe-text h4{
+        font-size: 20px;
+    }
+    .help-left a{
+        font-size: 12px;
+        margin: 5px;
+    }
+ }
+ /*responsive for media pixel 768px*/
+ @media only screen and (max-width: 768px) {
+    .header-banner-left h1 {
+        font-size: 25px;
+    }
+    .inner-img{
+        width: 198px;
+        height: 198px;
+    }
+    .dics img{
+        position: absolute;
+        left: 21%;
+        top: 70%;
+    }
+    .third-banner-tittle h1{
+        font-size: 25px;
+    }
+    .third-banner-tittle p{
+        font-size: 12px;
+
+    }
+    .recipe-banner .images{
+        width: 100%;
+        height: 200px;
+    }
+    .recipe-text h4{
+        font-size: 15px;
+    }
+    .help-left h2{
+        font-size: 22px;
+    }
+    .help-left a{
+        display: block;
+        text-align: center;
+        width: 200px;
+        margin: 25px;
+        font-size: 16px;
+    }
+    .sub-footer h5{
+        font-size: 13px;
+    }
+    .sub-footer a{
+        font-size: 12px;
+    }
+    .sub-footer img{
+        height: 25px;
+        margin: 10px;
+    }
+ }
+ /* media screen 375 px*/
+ @media only screen and (max-width: 375px) {
+    .search-box:hover .search input{
+        width: 100px;
+        padding: 0 10px;
+    }
+    .search input{
+        font-size: 10px;
+    }
+    #second-banner h1{
+        font-size: 28px;
+    }
+    a.see-more{
+        margin-left: 0;
+    }
+    .dics img {
+        position: absolute;
+        left: 7%;
+        top: 60%;
+        width: 76%;
     }
     .extra{
-        width: 78%;
-        height: 78%;
+        width: 75%;
+        height: 79%;
         box-shadow: 0 0 0 4px #d90064;
         border-radius: 50%;
         position: absolute;
-        top: 11%;
-        left: 11%;
-        right: 10%;
+        top: 10%;
+        left: 12%;
+        right: 7%;
     }
-    .discuss{
+    .discuss {
         z-index: 555;
         text-align: center;
         position: absolute;
-        left: 45%;
-        font-size: 18px;
-        font-weight: bold;
-        color: #d90064;
-        margin: 10px;
+        left: 26%;
     }
-    .discuss img{
-        height: 20px;
-        font-weight: bold;
-        margin: 10px;
+    .recipe-title h1{
+        font-size: 18px;
+    }
+    .recipe-title h2{
+        font-size: 15px;
+    }
+}
+/*media screen 320px*/
+@media only screen and (max-width: 320px) {
+    .inner-img .extra{
+        width: 72%;
+        height: 58%;
+        box-shadow: 0 0 0 4px #d90064;
+        border-radius: 50%;
+        position: absolute;
+        top: 21%;
+        left: 14%;
+        right: 7%;
+    }
+    .menu .dics img {
+        position: absolute;
+        left: 20%;
+        top: 50%;
+        width: 70%;
+    }
+    .menu .discuss {
+        z-index: 555;
+        text-align: center;
+        position: absolute;
+        left: 31%;
+        top: 92%; 
+    }
+    #second-banner .banner-tittle h1{
+        font-size: 22px;
+    }
+    #second-banner .banner-tittle h3{
+        font-size: 20px;
+    }
+    .recipe-text h4{
+        font-size: 28px;
+    }
+        
+    .search input{
+        display: none;
+    }
+
+ /* media screen 414 px*/
+ @media only screen and (max-width: 414px) {
+    .search-box:hover .search input{
+        width: 150px;
+        padding: 0 10px;
+    }
+    .search input{
+        font-size: 10px;
+    }
+    #second-banner h1{
+        font-size: 28px;
+    }
+    a.see-more{
+        margin-left: 0;
+    }
+    .extra {
+        width: 76%;
+        height: 79%;
+        box-shadow: 0 0 0 4px #d90064;
+        border-radius: 50%;
+        position: absolute;
+        top: 10%;
+        left: 12%;
+        right: 7%;
+    }
+    .inner-img{
+        margin-left: 10%;
+        width: 90%;
+    }
+    .dics img {
+        position: absolute;
+        left: 20%;
+        top: 70%;
+        width: 70%;
+    }
+    .discuss {
+        z-index: 555;
+        text-align: center;
+        position: absolute;
+        left: 40%;
+        top: 112%;
+    }
+    .menu{
+        margin-bottom: 20%;
+    }
+    .recipe-title h1{
+        font-size: 18px;
+    }
+    .recipe-title h2{
+        font-size: 15px;
+    }
+    .footer .footer-logo {
+        height: 25px;
+        margin: 0;
+    }
+    .sub-footer h5{
+        font-size: 20px;
+    }
+    .sub-footer a{
+        font-size: 17px;
     }
 }
